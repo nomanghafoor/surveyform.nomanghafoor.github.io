@@ -1,0 +1,307 @@
+
+* {
+    box-sizing: border-box;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+html {
+    font-family: "Lucida Sans", sans-serif;
+}
+
+
+body{
+	margin: 0;
+	background-color: #0000cc;
+	
+	
+}
+
+#title{
+	text-align: center;
+	color: #fff;
+	font-size: 4vw;
+	padding: 5vw 5vw 1vh;
+}
+
+#description{
+	padding: 1vh 15vw;
+	color: #fff;
+	font-size: 2vw;
+	
+}
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+
+
+
+input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+
+
+
+input[type=number], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=submit] {
+    background-color: #0000cc;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+   
+	width: 60vw;
+	margin: auto;
+	display: block;
+}
+
+input[type=submit]:hover {
+    background-color: #000;
+}
+
+.container {
+    border-radius: 5px;
+	color: #fff;
+    background-color: #00004d;
+    padding: 20px;
+	width: 70vw;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+	display: block;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+
+
+.hdr{
+	height: 50vh;
+	background-color: #0000cc;
+	text-align: center;
+	padding: 70px 0;
+	
+	
+}
+
+.hdr h1{
+	color: #fff;
+	font-size: 4vw;
+	font-family: broadway;
+}
+
+
+.hdr h2{
+	color: #1affff;
+	font-size: 3vw;
+	font-family: verdana;
+}
+
+
+.ftr{
+	height:20vw;
+	
+}
+
+
+
+
+.col-3{
+	
+	background-color: #0000cc;
+	height: 20vh;
+	padding: 5vh 1vh;
+	color: #fff;
+	text-align: center;
+	font-size: 2vw;
+}
+
+.col-12{
+	color: #fff;
+	text-align: center;
+	padding: 10px 2px;
+}
+
+a:link{
+	text-decoration: none;
+}
+
+ a:visited{
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px 2px;
+}
+
+a:hover{
+	color: #1affff;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+
+
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+	
+	
+	.hdr{
+	height: 20vh;
+	background-color: #0000cc;
+	text-align: center;
+	padding: 45px 0;
+	
+	
+}
+
+.hdr h1{
+	color: #fff;
+	font-size: 4vw;
+	font-family: broadway;
+}
+
+
+.hdr h2{
+	color: #1affff;
+	font-size: 3vw;
+	font-family: verdana;
+}
+
+#description{
+	padding: 1vh 15vw;
+	color: #fff;
+	font-size: 3vw;
+	
+}
+	
+.col-3{
+	
+	background-color: #0000cc;
+	height: 20vh;
+	padding: 5vh 1vh;
+	color: #fff;
+	text-align: center;
+	font-size: 4vw;
+}
+
+
+.col-12{
+	color: #fff;
+	text-align: center;
+	padding: 10px 2px;
+	font-size: 4vw;
+	
+}
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
