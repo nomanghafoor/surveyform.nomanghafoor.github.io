@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>survey form</title>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+<header class="hdr">
+<h1>Your Favourite Social Media Site </h1>
+
+<h2>Facebook Twitter LinkedIn</h2>
+
+
+</header>
+
+
+<h1 id="title">Survey Form</h1>
+<p id="description">Dear visitors warm welcome you to our survey. This survey form has been created to know about the most favourite social media site you like to use. Your participation in the survey would help us to conclude our venture to analysie the latest trend in social media sites usage. </p>
+
+<div class="container">
+  <form id="survey-form"   action="/action_page.php">
+    <div class="row">
+      <div class="col-25">
+        <label id="name-label" for="name">Your Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="name" name="yourname" placeholder="Your name.." required>
+      </div>
+    </div>
+	
+	
+	<div class="row">
+	<div class="col-25">
+        <label id="email-label" for="email">Your Email</label> 
+      </div>
+      <div class="col-75">
+        <input type="email" id="email" name="youremail" placeholder="Please enter your e-mail address" required >
+      </div>
+    </div>
+	
+	
+	
+	<div class="row">
+	<div class="col-25">
+        <label id="number-label" for="number">Your Age</label>
+      </div>
+      <div class="col-75">
+        <input type="number" id="number" name="yourage" placeholder="Please enter your age" min="10" max="99" >
+      </div>
+    </div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+    
+    <div class="row">
+      <div class="col-25">
+        <label for="dropdown">Country</label>
+      </div>
+      <div class="col-75">
+        <select id="dropdown"  name="country">
+          <option value="uk">UK</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+		  <option value="france">France</option>
+          <option value="germany">Germany</option>
+          <option value="japan">Japan</option>
+		  <option value="korea">Korea</option>
+          <option value="china">China</option>
+          <option value="india">India</option>
+		  <option value="uae">UAE</option>
+          <option value="turkey">Turkey</option>
+          <option value="other">Other</option>
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">Subject</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      </div>
+    </div>
+	
+	<!-- radio button practice-->
+         <div class="row">
+		 <div class="col-25">
+         <label>Question:1</label> 
+	      </div>
+		  
+		<div class="col-75">
+        <label>What is your favourite social media website?</label> 
+				
+    <ul style="list-style: none;">
+      <li class="radio"><label>Facebook<input name="radio-buttons" value="1"  type="radio"></label></li>
+       <li class="radio"><label>Twitter<input name="radio-buttons" value="2" type="radio"></label></li>
+      <li class="radio"><label>LinkedIn<input name="radio-buttons" value="3" type="radio"></label></li>
+        </ul>
+      </div>
+	  </div>
+	  
+	  
+	  <div class="row">
+		 <div class="col-25">
+         <label>Question:2</label> 
+	      </div>
+		  
+		<div class="col-75">
+        <label>How many times do you visit your favourite site a week?</label> 
+				
+    <ul style="list-style: none;">
+      <li class="radio"><label>Daily<input name="radio-buttons" value="1"  type="radio"></label></li>
+       <li class="radio"><label>A few days<input name="radio-buttons" value="2" type="radio"></label></li>
+      <li class="radio"><label>Not at all<input name="radio-buttons" value="3" type="radio"></label></li>
+        </ul>
+      </div>
+	  </div>
+	  
+	  
+	  
+	  <div class="row">
+		 <div class="col-25">
+         <label>Question:3</label> 
+	      </div>
+		  
+		<div class="col-75">
+        <label>How many hours do you spend per week on your social media site?</label> 
+				
+    <ul style="list-style: none;">
+      <li class="radio"><label>One hour<input name="radio-buttons" value="1"  type="radio"></label></li>
+       <li class="radio"><label>1 To 6 hours<input name="radio-buttons" value="2" type="radio"></label></li>
+      <li class="radio"><label>More than 6 hours<input name="radio-buttons" value="3" type="radio"></label></li>
+        </ul>
+      </div>
+	  </div>
+	  
+	  
+	  <div class="row">
+		 <div class="col-25">
+         <label>Question:4</label> 
+	      </div>
+		  
+		<div class="col-75">
+        <label>How many friends or followers do you have on your favourite social media site?</label> 
+				
+    <ul style="list-style: none;">
+      <li class="radio"><label>1 To 100<input name="radio-buttons" value="1"  type="radio"></label></li>
+       <li class="radio"><label>100 to 1000<input name="radio-buttons" value="2" type="radio"></label></li>
+      <li class="radio"><label>Above 1000<input name="radio-buttons" value="3" type="radio"></label></li>
+        </ul>
+      </div>
+	  </div>
+	  
+	  
+	  <div class="row">
+		 <div class="col-25">
+         <label>Question:5</label> 
+	      </div>
+		  
+		<div class="col-75">
+        <label>What was your main purpose to make account in your favourrite site?</label> 
+				
+    <ul style="list-style: none;">
+      <li class="radio"><label>To keep in touch with your friends and relatives<input name="radio-buttons" value="1"  type="radio"></label></li>
+       <li class="radio"><label>To expand your social links<input name="radio-buttons" value="2" type="radio"></label></li>
+      <li class="radio"><label>For business purpose only<input name="radio-buttons" value="3" type="radio"></label></li>
+        </ul>
+      </div>
+	  </div>
+	  
+	  
+	  
+	  
+	  <div class="row">
+		 <div class="col-25">
+         <label>Question:6</label> 
+	      </div>
+		  
+		<div class="col-75">
+        <label>Do you think that you have acheived your goals by joining this site?</label> 
+				
+    <ul style="list-style: none;">
+      <li class="radio"><label>A lot<input name="radio-buttons" value="1"  type="radio"></label></li>
+       <li class="radio"><label>A little<input name="radio-buttons" value="2" type="radio"></label></li>
+      <li class="radio"><label>Not at all<input name="radio-buttons" value="3" type="radio"></label></li>
+        </ul>
+      </div>
+	  </div>
+	  
+	  
+	  
+	  
+	  <div class="row">
+		 <div class="col-25">
+         <label>Question:7</label> 
+	      </div>
+		  
+		<div class="col-75">
+        <label>Do you think that the use of social media sites is likely an addiction?</label> 
+				
+    <ul style="list-style: none;">
+      <li class="radio"><label>Too much<input name="radio-buttons" value="1"  type="radio"></label></li>
+       <li class="radio"><label>A little<input name="radio-buttons" value="2" type="radio"></label></li>
+      <li class="radio"><label>Not at all<input name="radio-buttons" value="3" type="radio"></label></li>
+        </ul>
+      </div>
+	  </div>
+	  
+	  
+	  <div class="row">
+		 <div class="col-25">
+         <label>Question:8</label> 
+	      </div>
+		  
+		<div class="col-75">
+        <label>How much your daily life is disturbed by using this social media site?</label> 
+				
+    <ul style="list-style: none;">
+      <li class="radio"><label>A lot<input name="radio-buttons" value="1"  type="radio"></label></li>
+       <li class="radio"><label>A little<input name="radio-buttons" value="2" type="radio"></label></li>
+      <li class="radio"><label>Not at all<input name="radio-buttons" value="3" type="radio"></label></li>
+        </ul>
+      </div>
+	  </div>
+	  
+	  
+	  
+	  <div class="row">
+		 <div class="col-25">
+         <label>Question:9</label> 
+	      </div>
+		  
+		<div class="col-75">
+        <label>Would you recommmend your others to join this site?</label> 
+				
+    <ul style="list-style: none;">
+      <li class="radio"><label>Definitely<input name="radio-buttons" value="1"  type="radio"></label></li>
+       <li class="radio"><label>To some people only<input name="radio-buttons" value="2" type="radio"></label></li>
+      <li class="radio"><label>I am not intereted to answer this question<input name="radio-buttons" value="3" type="radio"></label></li>
+        </ul>
+      </div>
+	  </div>
+	  
+	  
+	
+	
+		<!--Question 10-->
+	 <div class="row">
+		 <div class="col-25">
+         <label>Question:10</label> 
+	      </div>
+	 <div class="col-75">
+	   <label>What device do you use the most to visit your favourite social media site?</label>
+	<input type="checkbox" name="vehicle1" value="Bike">Amobile phone
+<br>
+<input type="checkbox" name="vehicle2" value="Car">A tablet
+<br>
+<input type="checkbox" name="vehicle2" value="Car">A laptop or desktop
+<br>
+	</div>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+    <div class="row">
+      <input id="submit" type="submit" value="Submit">
+    </div>
+  </form>
+</div>
+
+
+
+<footer class="ftr">
+  <div class="row">
+     <div class="col-3"> 
+
+	   <a href="#">
+	    <P>Facebook</p>
+	   </a>
+
+     </div>
+	 
+	 
+	 <div class="col-3"> 
+	   <a href="#">
+        <p>Twitter</p>
+       </a>
+
+     </div>
+
+	 
+	 
+	 <div class="col-3"> 
+       <a href="#">
+         <p>LinkedIn</p>
+       </a>
+    </div>
+
+	 
+	 
+	<div class="col-3"> 
+	 <a href="#">
+       <P>YouTube</p>
+     </a> 
+    </div>
+
+	 
+	<div class="col-12"> 
+	  <p>This <strong>Survey Form</strong> has been created as a reasponsive web design project</p>
+      <P>By</p>
+      <p>Noman Ghafoor</p>
+
+    </div>
+	 
+
+  </div>
+</footer>
+</body>
+</html>
